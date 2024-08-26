@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.0)
 project(z1_controller LANGUAGES CXX)
 set(PACKAGE_NAME z1_controller)
 set(CMAKE_CXX_FLAGS "$ENV{CXXFLAGS} -O3 -std=c++14 -pthread")
+set(COMMUNICATION UDP)
 
 find_package(Boost REQUIRED)
 find_package(Eigen3 REQUIRED)
