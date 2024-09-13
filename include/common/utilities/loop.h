@@ -9,7 +9,7 @@
 #include <vector>
 #include <boost/shared_ptr.hpp>
 #include <boost/function.hpp>
-#include <boost/bind.hpp>
+#include <boost/bind/bind.hpp>
 #include "common/utilities/timer.h"
 
 
